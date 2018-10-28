@@ -48,6 +48,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+
 /* ====================== Navigation ====================== */
 nav {
   display: flex;
@@ -98,12 +99,14 @@ nav h1 a {
     color: #01447e;
     text-decoration: underline;
 }
+
 /* ====================== Map ====================== */
 #map {
   height: 400px;
   width: 100%;
   background-color: #ccc;
 }
+
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   padding: 10px 0 3px;
@@ -303,7 +306,7 @@ nav h1 a {
   width: 100%;
 }
 
-/* ====================== Media Queries ====================== */
+/* ====================== Responsiveness ====================== */
 
 @media (min-width: 458px) {
   .filter-options {
