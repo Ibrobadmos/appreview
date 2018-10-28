@@ -1,9 +1,9 @@
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('./sw.js')
 	.then(function() {
-		console.log('Registration worked!');
+		console.log('Cache Successsfully Registered!......');
 	})
 	.catch(function() {
-		console.log('Registration failed!');
+		console.log('Cacje Registration Failed!.....');
 	});
 }
